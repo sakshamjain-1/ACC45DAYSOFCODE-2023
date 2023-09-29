@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+    
+    while (T--) {
+        int X, Y, Z;
+        cin >> X >> Y >> Z;
+        
+
+        int k= Y / X;
+        
+  int min_time = max(0,Z-k);
+        
+        cout << min_time << endl;
+    }
+    
+    return 0;
+}
